@@ -1,21 +1,66 @@
 //以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
 //本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。
+
 {
   "spider": "./lib/pg.jar",
   "lives": [
-    
-{
-                        "key": "豆瓣",
-                        "name": "豆瓣推荐",
-                        "type": 3,
-                        "api": "csp_Douban",
-                        "searchable": 0,
-                        "changeable": 1,
-                        "indexs":1,
-                        "ext": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/lib/douban.json"
-                },
-
-{"key":"Clg",
+    {
+      "name": "初秋语",
+      "type": 0,
+      "url": "./lib1/listx.txt"
+    },
+    {
+      "name": "YanG",
+      "type": 0,
+      "url": "https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u"
+    },
+    {
+      "name": "atsushi",
+      "type": 0,
+      "url": "https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"
+    },
+    {
+      "name": "小武哥",
+      "type": 0,
+      "url": "./lib1/PEHy.txt"
+    },
+    {
+      "name": "AV",
+      "type": 0,
+      "url": "./lib1/livex.m3u"
+    },
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u"
+    }
+  ],
+  "wallpaper": "https://liu.chuqiuyu.workers.dev",
+  "sites": [
+    {
+      "key": "lf_js_search",
+      "name": "搜索",
+      "type": 3,
+      "searchable": 0,
+      "changeable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "api": "./lib1/lf_search3_min.js",
+      "ext": "18+"
+    },
+    {
+      "key": "lf_js_p2p",
+      "name": "磁力",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./lib1/lf_p2p2_min.js",
+      "ext": "18+",
+      "timeout": 60
+    },
+			{"key":"Clg",
 	"name":"🔥磁力狗|磁力🔥",
 	"type":3,"api":"csp_Clg",
 	"searchable":1,
@@ -30,7 +75,7 @@
 				"ratio": 1.5
 			}
 		},
-{"key":"PushShare333435656",
+		{"key":"PushShare333435656",
 		"name":"🔥桃花分享🔥",
 		
 		"type":3, 
@@ -46,8 +91,56 @@
 				"ratio": 1.1
 			}
 		},
-		
+		 {
+            "key": "BtSow",
+            "name": "🧲 磁力搜索2🧲 ",
+            "type": 3,
+            "api": "csp_BtSow",
+			
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "null$$$null$$$1"
+        },
+				 {"key":"Bt0333",
+	 "name":"🧲 磁力搜索🧲 ",
+	 "type":3,
+
+	 "api":"csp_BtSearch",
+	 "quickSearch":1,
+	 "changeable":1, 
+	 "filterable":1, 
+	 "timeout":60, 
+	 "ext":"null$$$null$$$1"},
     {
+      "key": "lf_js_lf_live",
+      "name": "直播",
+      "type": 3,
+      "api": "./lib1/lf_live_min.js",
+      "style": {
+        "type": "oval"
+      },
+      "searchable": 1,
+      "changeable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib1/lf_live1.txt"
+    },
+	
+      {
+      "key": "非凡",
+      "name": "非凡",
+      "type": 1,
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072|127.0.0.1:10071|127.0.0.1:10074/http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+	    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072|127.0.0.1:10071|127.0.0.1:10074&url=",
+      "categories": [
+        "伦理片"
+      ]
+    },
+      {
             "name": "量子",
             "hosts": [
                 "vip.lz",
