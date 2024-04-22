@@ -1,30 +1,9 @@
 //以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
 //本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。
 {
-
-	
-
-
-
-
-"spider":"https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/pg.jar",
-
-"lives":[
+  "spider": "./lib/pg.jar",
+  "lives": [
     
-{
-      "name": "live",
-      "url": "https://gitcode.net/ygbh66/test/-/raw/master/tw.txt",
-      "type": 0,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-    },    
-    {"group":"redirect",
-    "channels":[{
-    "name":"redirect",
-    "urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRjb2RlLm5ldC95Z2JoNjYvdGVzdC8tL3Jhdy9tYXN0ZXIvdHcudHh0"]}]
-    }],
-"sites":[
 {
                         "key": "豆瓣",
                         "name": "豆瓣推荐",
