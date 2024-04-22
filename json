@@ -1,9 +1,40 @@
 //以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
 //本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。
-
 {
-"spider": "./lib/pg.jar",
-"lives": [
+
+	
+
+
+
+
+"spider":"https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/pg.jar",
+
+"lives":[
+    
+{
+      "name": "live",
+      "url": "https://gitcode.net/ygbh66/test/-/raw/master/tw.txt",
+      "type": 0,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },    
+    {"group":"redirect",
+    "channels":[{
+    "name":"redirect",
+    "urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRjb2RlLm5ldC95Z2JoNjYvdGVzdC8tL3Jhdy9tYXN0ZXIvdHcudHh0"]}]
+    }],
+"sites":[
+{
+                        "key": "豆瓣",
+                        "name": "豆瓣推荐",
+                        "type": 3,
+                        "api": "csp_Douban",
+                        "searchable": 0,
+                        "changeable": 1,
+                        "indexs":1,
+                        "ext": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/lib/douban.json"
+                },
 {"key":"csp_Jianpian","name":"🧲荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://api2.rinhome.com"},
 {"key":"csp_NanGua","name":"🎃南瓜","type":3,"api":"csp_NanGua","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
 {"key":"Clg",
@@ -68,5 +99,50 @@
           "ext": "https://www.6vdy.org/",
         "jar": "https://github.moeyy.xyz/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;64690215b0987464819e01f94be0251c"
         },
-    ]
+    
+    {
+            "name": "量子",
+            "hosts": [
+                "vip.lz",
+                "hd.lz",
+                ".cdnlz",
+                "v.cdnlz",
+                "vip1.lz"
+            ],
+            "regex": [
+                "17.2"
+            ]
+        },
+        {
+            "name": "非凡",
+            "hosts": [
+                "vip.ffzy",
+                "super.ffzy",
+                "svip.ffzy"
+            ],
+            "regex": [
+                "18"
+            ]
+        },
+    {
+      "name": "索尼",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "15.1666",
+        "15.2666"
+      ]
+    },
+    {
+      "name": "暴風",
+      "hosts": [
+        "bfzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
     }
+      
+  ]
+}
